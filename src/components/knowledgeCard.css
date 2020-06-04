@@ -1,0 +1,40 @@
+.item {
+    font-size: large;
+    font-weight: 300;
+    color: rgba(255,255,255,0.5);
+    transition: 0.4s;
+}
+.item:nth-child(3) {
+    animation: flash 15s 0s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+.item:nth-last-child(3) {
+    animation: flash 15s 3s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+.item:nth-child(1) {
+    animation: flash 15s 6s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+.item:nth-last-child(5) {
+    animation: flash 15s 9s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+.item:last-child {
+    animation: flash 15s 12s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+
+
+@keyframes flash {
+    0% {color: rgba(255, 255, 255, 0.5); font-size: large;}
+    10% {color: rgba(255, 255, 255, 1); font-size: large; font-weight: 600; letter-spacing: 0.8px;}
+    20% {color: rgba(255, 255, 255, 0.5); font-size: large;}
+    40% {color: rgba(255, 255, 255, 0.5); font-size: large; font-weight: 300; letter-spacing: normal;}
+    100% {color: rgba(255, 255, 255, 0.5); font-size: large;}
+}

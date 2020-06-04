@@ -1,0 +1,116 @@
+.projectCard {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-start;
+    align-items: stretch;
+    cursor: default;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.projectName {
+    justify-content: flex-start;
+    align-self: flex-end;
+}
+.projectDate {
+    flex-grow: 1;
+    align-self: center;
+    text-align: right;
+}
+
+.cardHeader {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: flex-start;
+    justify-content: stretch;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.imageDiv {
+    flex-grow: 1;
+    padding-right: 15px;
+}
+
+.descriptionDiv {
+    flex-grow: 2;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.techDiv {
+    flex-grow: 1;
+    padding-left: 15px;
+}
+
+.techList {
+    text-align: left;
+    line-height: 1.5;
+}
+
+.projectImage {
+    max-width: 10vw;
+    max-height: 200px;
+    min-width: 50px;
+    min-height: 40px;
+}
+
+hr {
+    border: 1px solid #293742;
+    text-align: left;
+    width: 100vw;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+p {
+    line-height: 2;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.fadeParent {
+    width: 90vw;
+    height: 70vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    justify-content: center;
+    outline: none;
+}
+
+.each-fade {
+    display: block;
+    text-align: center;
+    align-self: center;
+}
+
+.image {
+    max-height: 70vh;
+    max-width: 90vw;
+    text-align: center;
+
+}
+.overlayCard {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
