@@ -41,3 +41,12 @@
 .awDesc {
     text-align: left;
 }
+
+@media all and (max-width: 900px) {
+
+    .accoladesCase {
+    
+        width: 90vw;
+    }
+
+}

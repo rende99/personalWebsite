@@ -13,7 +13,7 @@
     position: absolute;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-right: 200px;
+    right: 60px;
     margin-left: 10px;
     animation: fadein 0.3s;
 }
@@ -416,6 +416,21 @@ a:active {
 }
 
 
+@media all and (max-width: 900px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
 
+    .rowTwo {
+        width: 90vw;
+    }
+
+    .popoverBottom {
+        display: none;
+    }
+
+}
 
 

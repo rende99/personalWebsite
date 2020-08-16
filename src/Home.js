@@ -165,12 +165,12 @@ class Home extends Component {
                 </div>
                 <div className="parentResDiv" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
                     <KnowledgeCard list={['HTML','CSS','Javascript', 'Python', 'Java', 'Swift', 'C++', 'R']} header="Programming" />
-                    <KnowledgeCard list={['Node.js','Express','React', 'jQuery', 'MongoDB', 'Firebase', 'Bootstrap', 'Bulma', 'Blueprint JS']} header="Frameworks/Libraries/Platforms" />
+                    <KnowledgeCard list={['Node.js','Express', 'React', 'jQuery', 'Docker', 'MongoDB', 'Firebase', 'Bootstrap', 'Blueprint JS']} header="Frameworks/Libraries/Platforms" />
                     <KnowledgeCard list={['RStudio','Git','Photoshop', 'Illustrator', 'Excel', 'Blender']} header="Software" />
                 </div>
                 <div className="extra" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="-100">
                     <h6 className="bp3-heading bp3-dark">Here's my resume, for more information: </h6>
-                    <a href="res_19.pdf" target="_blank">
+                    <a href="rende_resume_F20.pdf" target="_blank">
                         <FontAwesomeIcon className="iconClass" icon={faFilePdf} size="3x" color="white"/>
                     </a>
                 </div>

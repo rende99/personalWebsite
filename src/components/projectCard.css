@@ -11,6 +11,14 @@
     cursor: default;
     border-radius: 0px;
     cursor: pointer;
+    transition: ease-in-out;
+}
+
+.projectCard:hover {
+    box-shadow: 0px 0px 8px turquoise;
+    border-radius: 5px;
+    transition: box-shadow ease-in-out 0.1s;
+    transition-timing-function: ease-in-out;
 }
 
 .projectName {
@@ -107,10 +115,29 @@ p {
     max-height: 70vh;
     max-width: 90vw;
     text-align: center;
-
 }
+
 .overlayCard {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
 }
+
+@media all and (max-width: 900px) {
+  
+    .cardContent {
+        flex-direction: column;
+    }
+
+    .projectImage {
+        max-width: 70vw;
+        max-height: 200px;
+        min-width: 50px;
+        min-height: 40px;
+        margin: 10px;
+        text-align: center;
+        justify-self: center;
+    }
+
+}
+
